@@ -1,0 +1,172 @@
+2018-12-06 00:22:10.364 [main] [DEBUG] c.v.mapper.SysRoleMapper.insert.debug 159 -- ==>  Preparing: INSERT INTO sys_role ( id, roleName, roleState, createTime ) VALUES ( ?, ?, ?, ? ) 
+2018-12-06 00:22:10.441 [main] [DEBUG] c.v.mapper.SysRoleMapper.insert.debug 159 -- ==> Parameters: 60b398680c38441191bc668c504313f0(String), 超级管理员(String), 1(Integer), 2018-12-06 00:22:09.21(Timestamp)
+2018-12-06 00:22:10.516 [main] [DEBUG] c.v.mapper.SysRoleMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.550 [main] [DEBUG] c.v.mapper.SysMenuMapper.selectObjs.debug 159 -- ==>  Preparing: SELECT id FROM sys_menu 
+2018-12-06 00:22:10.550 [main] [DEBUG] c.v.mapper.SysMenuMapper.selectObjs.debug 159 -- ==> Parameters: 
+2018-12-06 00:22:10.631 [main] [DEBUG] c.v.mapper.SysMenuMapper.selectObjs.debug 159 -- <==      Total: 35
+2018-12-06 00:22:10.643 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.delete.debug 159 -- ==>  Preparing: DELETE FROM sys_role_menu WHERE (roleId = ?) 
+2018-12-06 00:22:10.644 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.delete.debug 159 -- ==> Parameters: 60b398680c38441191bc668c504313f0(String)
+2018-12-06 00:22:10.662 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.delete.debug 159 -- <==    Updates: 0
+2018-12-06 00:22:10.668 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==>  Preparing: INSERT INTO sys_role_menu ( id, roleId, menuId ) VALUES ( ?, ?, ? ) 
+2018-12-06 00:22:10.669 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: cd9d9fc4745048c8a4b922dd3999302c(String), 60b398680c38441191bc668c504313f0(String), 0818e1c76bbd44eba3a698547ec4e637(String)
+2018-12-06 00:22:10.670 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.672 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: fabce6be4d4945a48ae9d31bbeb03462(String), 60b398680c38441191bc668c504313f0(String), 0c9b5fc8b44b41d1871a8fc8300247ec(String)
+2018-12-06 00:22:10.673 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.674 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 2a86c47fd207466cbf1cc68a4f69c4d7(String), 60b398680c38441191bc668c504313f0(String), 1(String)
+2018-12-06 00:22:10.676 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.677 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 3c3dbd3973184f79aff1ae7e6f4ce6ae(String), 60b398680c38441191bc668c504313f0(String), 10(String)
+2018-12-06 00:22:10.678 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.680 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 58ce8c2e32e3479f85445bac2f68bfd2(String), 60b398680c38441191bc668c504313f0(String), 1db9105008404a3485b6fac30dba3c0e(String)
+2018-12-06 00:22:10.681 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.682 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: a3f0609386f447a8a5518fa4e048e1a8(String), 60b398680c38441191bc668c504313f0(String), 2(String)
+2018-12-06 00:22:10.684 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.685 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: af12ab2d4ab74fe382ccc5cca5dd7fee(String), 60b398680c38441191bc668c504313f0(String), 22e38e885f9b40b9aae6a36deb78e89c(String)
+2018-12-06 00:22:10.687 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.692 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 5ff51826c4924120aec56c4bbfc7367b(String), 60b398680c38441191bc668c504313f0(String), 3(String)
+2018-12-06 00:22:10.694 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.696 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: eb815779351f40979e71d923b221bb87(String), 60b398680c38441191bc668c504313f0(String), 363a778e78a346a68210b2590163a943(String)
+2018-12-06 00:22:10.698 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.699 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: a030a61c62594d6dbb6024b72a4b92df(String), 60b398680c38441191bc668c504313f0(String), 3f26102ef0e04c3c9328cb97067cc5fa(String)
+2018-12-06 00:22:10.701 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.702 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 3d6d23267e2b4c60ae379e2deb706cbb(String), 60b398680c38441191bc668c504313f0(String), 3fb6a7a5935b4efabf3de82e7e1baeb6(String)
+2018-12-06 00:22:10.703 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.704 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 0a8c5930d5fe40429ea2f2c517dfa6f4(String), 60b398680c38441191bc668c504313f0(String), 4(String)
+2018-12-06 00:22:10.706 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.708 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 335916b64c6c4b538012e7072ed08cc7(String), 60b398680c38441191bc668c504313f0(String), 4253190001c1480fb0d631d64d150535(String)
+2018-12-06 00:22:10.710 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.712 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: af90e6a064de4c7294fcfd5e283aa481(String), 60b398680c38441191bc668c504313f0(String), 42dd5ae31e3a43b3a197440e8ec19a94(String)
+2018-12-06 00:22:10.713 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.715 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: a1048eb26b964b1fba6f17548a61e6c3(String), 60b398680c38441191bc668c504313f0(String), 488ef1eff57b4827acade7c0744278ce(String)
+2018-12-06 00:22:10.716 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.718 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 2486b7d104254056903f8401fa041b4c(String), 60b398680c38441191bc668c504313f0(String), 4e816a9854714d24b0413d929d637a2b(String)
+2018-12-06 00:22:10.719 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.720 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 59f0e4a019dd4f7eba41b1c57bf93f76(String), 60b398680c38441191bc668c504313f0(String), 5(String)
+2018-12-06 00:22:10.722 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.723 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 526fc174b5814e0a8ec3f442b9e10201(String), 60b398680c38441191bc668c504313f0(String), 5bb55dd90ba44db39d6e3d7f3f316af0(String)
+2018-12-06 00:22:10.724 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.725 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: af8828ac129e4d60bb8fb31733d0b0d4(String), 60b398680c38441191bc668c504313f0(String), 5d3dd56c16ff4e32aecae1b3228159c7(String)
+2018-12-06 00:22:10.726 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.728 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 68ae436fa7a7477da25eaf863a888a2a(String), 60b398680c38441191bc668c504313f0(String), 60dda993d87647f5989c15f14f866df9(String)
+2018-12-06 00:22:10.731 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.732 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: b2a48aa13a4a4be98b858ca58436422b(String), 60b398680c38441191bc668c504313f0(String), 649b484b58414d91aefa5a26143e6557(String)
+2018-12-06 00:22:10.733 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.734 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: f7bc6c91a0dd4475b80c977486ab56b3(String), 60b398680c38441191bc668c504313f0(String), 661a1f4a6ec94fa89ec6f90ce77a8eb3(String)
+2018-12-06 00:22:10.735 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.736 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 4fb8e60f0ff1468bb4eac01d000b4af4(String), 60b398680c38441191bc668c504313f0(String), 686630c7cb624cc786dcdc9958971a6b(String)
+2018-12-06 00:22:10.737 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.738 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: a3b615a07be941af8888866d16ebd6a8(String), 60b398680c38441191bc668c504313f0(String), 79d78b8357174cac8f44abd275dec597(String)
+2018-12-06 00:22:10.740 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.741 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: d426d5109a8c40dd9a25f9dcf9e10f92(String), 60b398680c38441191bc668c504313f0(String), 915c309ebe5047b68645b3eb777dd8c9(String)
+2018-12-06 00:22:10.742 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.743 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 57264fbfa89645fba3f36ce7d7748056(String), 60b398680c38441191bc668c504313f0(String), a5ebf29168234406939856bc6890c86b(String)
+2018-12-06 00:22:10.744 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.745 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: cdd9a9532cd1400081b666246b3caff6(String), 60b398680c38441191bc668c504313f0(String), a73802e513cc4465883530ec8074abbb(String)
+2018-12-06 00:22:10.746 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.747 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 96307c5251a74dd48851ccf95fa1d447(String), 60b398680c38441191bc668c504313f0(String), b1487b113b324e79b7fbadbe28660349(String)
+2018-12-06 00:22:10.748 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.750 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: b2b1706a64e24ddf943939c3d3ed855e(String), 60b398680c38441191bc668c504313f0(String), b4e7232189b14cf3ba160cf7b0d3bf37(String)
+2018-12-06 00:22:10.751 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.752 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: f73673c83adb4b18b613dfd1f3dfdc8c(String), 60b398680c38441191bc668c504313f0(String), d2bc30feb5474a1bb7e02d48d39a3f8a(String)
+2018-12-06 00:22:10.753 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.754 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: c684f046c6634e59869a3a4b1c2fc90a(String), 60b398680c38441191bc668c504313f0(String), dc5f478d98ed4297a8ae638fe90df050(String)
+2018-12-06 00:22:10.755 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.756 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 87c509e616a74883900623a6365627b4(String), 60b398680c38441191bc668c504313f0(String), e0ff3505df7c4aff87c60bb510c6d274(String)
+2018-12-06 00:22:10.757 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.758 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 6ec33b1b66244bc4a17d6cfbe72297c1(String), 60b398680c38441191bc668c504313f0(String), f5a20c82110b4a3ea9e30ca01a038680(String)
+2018-12-06 00:22:10.759 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.760 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 12bd06cc38e7450ab8811ccbae69126e(String), 60b398680c38441191bc668c504313f0(String), f899f3d3baec4571b1c786717f9906fd(String)
+2018-12-06 00:22:10.761 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.762 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 2ef4fe97fe2a4f789b153488adf0b2ba(String), 60b398680c38441191bc668c504313f0(String), f8db3e5b12d04a46b07026e2828791fc(String)
+2018-12-06 00:22:10.763 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.829 [main] [DEBUG] c.v.mapper.SysUserMapper.insert.debug 159 -- ==>  Preparing: INSERT INTO sys_user ( id, userName, `password`, userState, createTime ) VALUES ( ?, ?, ?, ?, ? ) 
+2018-12-06 00:22:10.830 [main] [DEBUG] c.v.mapper.SysUserMapper.insert.debug 159 -- ==> Parameters: 432ef51ac14a449b94797c7aeab4f6f6(String), admin(String), 038bdaf98f2037b31f1e75b5b4c9b26e(String), 1(Integer), 2018-12-06 00:22:10.797(Timestamp)
+2018-12-06 00:22:10.831 [main] [DEBUG] c.v.mapper.SysUserMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:22:10.833 [main] [DEBUG] c.v.mapper.SysUserRoleMapper.insert.debug 159 -- ==>  Preparing: INSERT INTO sys_user_role ( Id, userId, roleId ) VALUES ( ?, ?, ? ) 
+2018-12-06 00:22:10.834 [main] [DEBUG] c.v.mapper.SysUserRoleMapper.insert.debug 159 -- ==> Parameters: 09feab4819d143ed84f443b3cf7358ef(String), 432ef51ac14a449b94797c7aeab4f6f6(String), 60b398680c38441191bc668c504313f0(String)
+2018-12-06 00:22:10.835 [main] [DEBUG] c.v.mapper.SysUserRoleMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.160 [main] [DEBUG] c.v.mapper.SysRoleMapper.insert.debug 159 -- ==>  Preparing: INSERT INTO sys_role ( id, roleName, roleState, createTime ) VALUES ( ?, ?, ?, ? ) 
+2018-12-06 00:23:17.195 [main] [DEBUG] c.v.mapper.SysRoleMapper.insert.debug 159 -- ==> Parameters: ecc64e84a71d49c9b7eb19cda4e04025(String), 超级管理员(String), 1(Integer), 2018-12-06 00:23:16.039(Timestamp)
+2018-12-06 00:23:17.281 [main] [DEBUG] c.v.mapper.SysRoleMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.303 [main] [DEBUG] c.v.mapper.SysMenuMapper.selectObjs.debug 159 -- ==>  Preparing: SELECT id FROM sys_menu 
+2018-12-06 00:23:17.304 [main] [DEBUG] c.v.mapper.SysMenuMapper.selectObjs.debug 159 -- ==> Parameters: 
+2018-12-06 00:23:17.325 [main] [DEBUG] c.v.mapper.SysMenuMapper.selectObjs.debug 159 -- <==      Total: 35
+2018-12-06 00:23:17.354 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.delete.debug 159 -- ==>  Preparing: DELETE FROM sys_role_menu WHERE (roleId = ?) 
+2018-12-06 00:23:17.355 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.delete.debug 159 -- ==> Parameters: ecc64e84a71d49c9b7eb19cda4e04025(String)
+2018-12-06 00:23:17.357 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.delete.debug 159 -- <==    Updates: 0
+2018-12-06 00:23:17.362 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==>  Preparing: INSERT INTO sys_role_menu ( id, roleId, menuId ) VALUES ( ?, ?, ? ) 
+2018-12-06 00:23:17.364 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 7b0239d5bef0412980cca825ca6f096d(String), ecc64e84a71d49c9b7eb19cda4e04025(String), 0818e1c76bbd44eba3a698547ec4e637(String)
+2018-12-06 00:23:17.368 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.370 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 4d0b9f067bfa4a7eacb194d06a4b4187(String), ecc64e84a71d49c9b7eb19cda4e04025(String), 0c9b5fc8b44b41d1871a8fc8300247ec(String)
+2018-12-06 00:23:17.372 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.374 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: ec993f3b7b544e058a1d22021dc6cdb9(String), ecc64e84a71d49c9b7eb19cda4e04025(String), 1(String)
+2018-12-06 00:23:17.376 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.378 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: e35693d020eb4b059553b3672196c70b(String), ecc64e84a71d49c9b7eb19cda4e04025(String), 10(String)
+2018-12-06 00:23:17.379 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.380 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: d3bf5a8323be43e5b502d42223194279(String), ecc64e84a71d49c9b7eb19cda4e04025(String), 1db9105008404a3485b6fac30dba3c0e(String)
+2018-12-06 00:23:17.382 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.383 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 96f33002b7c44bb6a2e320a2176e4f80(String), ecc64e84a71d49c9b7eb19cda4e04025(String), 2(String)
+2018-12-06 00:23:17.385 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.386 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 3e5c1a76f6f543d6a4271b07cc4a4863(String), ecc64e84a71d49c9b7eb19cda4e04025(String), 22e38e885f9b40b9aae6a36deb78e89c(String)
+2018-12-06 00:23:17.388 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.389 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 27513e5d21b64fb1bf749328f58d86e8(String), ecc64e84a71d49c9b7eb19cda4e04025(String), 3(String)
+2018-12-06 00:23:17.391 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.392 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 9f8d27b8c299406fb94f85c7029fffdd(String), ecc64e84a71d49c9b7eb19cda4e04025(String), 363a778e78a346a68210b2590163a943(String)
+2018-12-06 00:23:17.393 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.395 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 321c6fcdaf59433ca3bb4ba79515cb78(String), ecc64e84a71d49c9b7eb19cda4e04025(String), 3f26102ef0e04c3c9328cb97067cc5fa(String)
+2018-12-06 00:23:17.396 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.398 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 1e5dfa8c10fa4c90aec085d4e08f4e1b(String), ecc64e84a71d49c9b7eb19cda4e04025(String), 3fb6a7a5935b4efabf3de82e7e1baeb6(String)
+2018-12-06 00:23:17.399 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.400 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: f4372d29a92247c9895e9818d88475b7(String), ecc64e84a71d49c9b7eb19cda4e04025(String), 4(String)
+2018-12-06 00:23:17.402 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.404 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: bfdffa41cadb4885a2a9806c8f3921f0(String), ecc64e84a71d49c9b7eb19cda4e04025(String), 4253190001c1480fb0d631d64d150535(String)
+2018-12-06 00:23:17.406 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.407 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: cdfb84c2c70242b39301bb7c1df09bdd(String), ecc64e84a71d49c9b7eb19cda4e04025(String), 42dd5ae31e3a43b3a197440e8ec19a94(String)
+2018-12-06 00:23:17.408 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.410 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 9342468daa094a22932ae9e2850ff56a(String), ecc64e84a71d49c9b7eb19cda4e04025(String), 488ef1eff57b4827acade7c0744278ce(String)
+2018-12-06 00:23:17.411 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.412 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: e0345ae9dc954f9486f47286c724e90c(String), ecc64e84a71d49c9b7eb19cda4e04025(String), 4e816a9854714d24b0413d929d637a2b(String)
+2018-12-06 00:23:17.414 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.415 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: d0f720dd865344529387312a3ba4b9ee(String), ecc64e84a71d49c9b7eb19cda4e04025(String), 5(String)
+2018-12-06 00:23:17.416 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.418 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: b048caed6781474e98bbdc7d6f42f0e6(String), ecc64e84a71d49c9b7eb19cda4e04025(String), 5bb55dd90ba44db39d6e3d7f3f316af0(String)
+2018-12-06 00:23:17.419 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.420 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 43777bc2154e4ee48fc7846e70c5c1ae(String), ecc64e84a71d49c9b7eb19cda4e04025(String), 5d3dd56c16ff4e32aecae1b3228159c7(String)
+2018-12-06 00:23:17.421 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.422 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 84fef97503a748439275bda2fd3089d2(String), ecc64e84a71d49c9b7eb19cda4e04025(String), 60dda993d87647f5989c15f14f866df9(String)
+2018-12-06 00:23:17.425 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.426 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 2022539c2b0c4ceb8b7f08b9a7ff6ca2(String), ecc64e84a71d49c9b7eb19cda4e04025(String), 649b484b58414d91aefa5a26143e6557(String)
+2018-12-06 00:23:17.427 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.428 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 8fb5a555868e42079343cd7e74612873(String), ecc64e84a71d49c9b7eb19cda4e04025(String), 661a1f4a6ec94fa89ec6f90ce77a8eb3(String)
+2018-12-06 00:23:17.429 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.431 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: cfe03ae879594820886cb0c240f15b9c(String), ecc64e84a71d49c9b7eb19cda4e04025(String), 686630c7cb624cc786dcdc9958971a6b(String)
+2018-12-06 00:23:17.432 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.433 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: abc3705db550418dbab279a9b06aaacf(String), ecc64e84a71d49c9b7eb19cda4e04025(String), 79d78b8357174cac8f44abd275dec597(String)
+2018-12-06 00:23:17.434 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.435 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 07ae3261a5b5445c952ac079e9c6ac67(String), ecc64e84a71d49c9b7eb19cda4e04025(String), 915c309ebe5047b68645b3eb777dd8c9(String)
+2018-12-06 00:23:17.436 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.438 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 736bc373cee04716a2e78179a6072749(String), ecc64e84a71d49c9b7eb19cda4e04025(String), a5ebf29168234406939856bc6890c86b(String)
+2018-12-06 00:23:17.440 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.441 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 1c5ae7eeb19b47f7a2b1c1d84d06c814(String), ecc64e84a71d49c9b7eb19cda4e04025(String), a73802e513cc4465883530ec8074abbb(String)
+2018-12-06 00:23:17.444 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.446 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: b0b4704a22724db98d3fbdb3641cde50(String), ecc64e84a71d49c9b7eb19cda4e04025(String), b1487b113b324e79b7fbadbe28660349(String)
+2018-12-06 00:23:17.448 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.449 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 6d5590d3fa294a67843a2a8e3f0d5fb4(String), ecc64e84a71d49c9b7eb19cda4e04025(String), b4e7232189b14cf3ba160cf7b0d3bf37(String)
+2018-12-06 00:23:17.451 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.452 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: c1a66ebaf50f4e17a876dc123dc81ec8(String), ecc64e84a71d49c9b7eb19cda4e04025(String), d2bc30feb5474a1bb7e02d48d39a3f8a(String)
+2018-12-06 00:23:17.453 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.454 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 69e7e50b8918420582d61af4d11bd1e2(String), ecc64e84a71d49c9b7eb19cda4e04025(String), dc5f478d98ed4297a8ae638fe90df050(String)
+2018-12-06 00:23:17.455 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.456 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 77f291a9956a45fda909ae33e6f8f4f6(String), ecc64e84a71d49c9b7eb19cda4e04025(String), e0ff3505df7c4aff87c60bb510c6d274(String)
+2018-12-06 00:23:17.457 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.458 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 4a03ca72671c4d66835549e96ab49b08(String), ecc64e84a71d49c9b7eb19cda4e04025(String), f5a20c82110b4a3ea9e30ca01a038680(String)
+2018-12-06 00:23:17.459 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.460 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 491a6c78e9d144cf9b426411982c3ac5(String), ecc64e84a71d49c9b7eb19cda4e04025(String), f899f3d3baec4571b1c786717f9906fd(String)
+2018-12-06 00:23:17.461 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.462 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- ==> Parameters: 92aa8154dc5c4725b9ed6bb05b2f218c(String), ecc64e84a71d49c9b7eb19cda4e04025(String), f8db3e5b12d04a46b07026e2828791fc(String)
+2018-12-06 00:23:17.463 [main] [DEBUG] c.v.mapper.SysRoleMenuMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.509 [main] [DEBUG] c.v.mapper.SysUserMapper.insert.debug 159 -- ==>  Preparing: INSERT INTO sys_user ( id, userName, `password`, userState, createTime ) VALUES ( ?, ?, ?, ?, ? ) 
+2018-12-06 00:23:17.510 [main] [DEBUG] c.v.mapper.SysUserMapper.insert.debug 159 -- ==> Parameters: 01b6cd34fcf5421b9c650f5f0078ce4a(String), admin(String), 038bdaf98f2037b31f1e75b5b4c9b26e(String), 1(Integer), 2018-12-06 00:23:17.493(Timestamp)
+2018-12-06 00:23:17.512 [main] [DEBUG] c.v.mapper.SysUserMapper.insert.debug 159 -- <==    Updates: 1
+2018-12-06 00:23:17.513 [main] [DEBUG] c.v.mapper.SysUserRoleMapper.insert.debug 159 -- ==>  Preparing: INSERT INTO sys_user_role ( Id, userId, roleId ) VALUES ( ?, ?, ? ) 
+2018-12-06 00:23:17.514 [main] [DEBUG] c.v.mapper.SysUserRoleMapper.insert.debug 159 -- ==> Parameters: b7353fce989f4bbaac41de90089fd413(String), 01b6cd34fcf5421b9c650f5f0078ce4a(String), ecc64e84a71d49c9b7eb19cda4e04025(String)
+2018-12-06 00:23:17.515 [main] [DEBUG] c.v.mapper.SysUserRoleMapper.insert.debug 159 -- <==    Updates: 1
